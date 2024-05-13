@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the Random Forest model
-model = joblib.load('C:\Users\Lenovo\Downloads\crop recommendation\crop recommendation\depl_model.pkl')
+model = joblib.load(r'C:\Users\Lenovo\Downloads\crop recommendation\crop recommendation\depl_model.pkl')
 
 # Function to make predictions
 def predict_crop(N, P, K, temperature, humidity, ph, rainfall):
